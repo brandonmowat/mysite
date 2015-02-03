@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'freight';
+  font-style: normal;
+  font-weight: 100;
+  src: local('webfont'), url('/fonts/freight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 100;
+  src: local('webfont'), url('/fonts/proxima-nova-100.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 300;
+  src: local('webfont'), url('/fonts/proxima-nova-300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 500;
+  src: local('webfont'), url('/fonts/proxima-nova-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  font-style: normal;
+  font-weight: 700;
+  src: local('webfont'), url('/fonts/proxima-nova-700.woff') format('woff');
+}

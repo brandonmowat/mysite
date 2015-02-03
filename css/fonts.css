@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'freight';
+  font-style: normal;
+  font-weight: 100;
+  src: local('webfont'), url('/fonts/freight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'proxima-nova-100';
+  font-style: normal;
+  font-weight: 100;
+  src: local('webfont'), url('/fonts/proxima-nova-100.woff') format('woff');
+}
