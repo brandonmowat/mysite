@@ -77,7 +77,7 @@
 								<div class="browser-button"></div>
 								<div class="browser-button"></div>
 							</div>
-							<img src="/img/cssdesignawards.png">
+							<img alt="CSS Design Award site" src="/img/cssdesignawards.png">
 						</div>
 					</div>
 				</div>
@@ -159,7 +159,7 @@
 						</div>
 			</section>
 
-			<section id="quote" >
+			<section id="quote2" >
 				<div class="container">
 					<blockquote>"Thank you for the kind words. I hope we will work together some day."</blockquote>
 					<p style="text-align: right;">- Jon Lax (co-founder of Teehan+Lax)</p>
@@ -190,7 +190,7 @@
 						</div>
 						<div class="col-2-Right instagramImagePositioning" id="instagramImage3"><div class="grid-cover"></div><div class="insta-img"></div></div>
 						<div class="col-2-Left instagramImagePositioning" id="instagramImage4"><div class="grid-cover"></div><div class="insta-img"></div></div>
-						<a target="_blank" href="http://medium.com/@irl" class="col-2-Right instagramImagePositioning" id="instagramImage5"><div class="grid-cover"><img src="/img/logo-medium.png"></div><div class="insta-img"></div></a>
+						<a target="_blank" href="http://medium.com/@irl" class="col-2-Right instagramImagePositioning" id="instagramImage5"><div class="grid-cover"><img alt="M" src="/img/logo-medium.png"></div><div class="insta-img"></div></a>
 					</div>
 				</div>
 			</section>
@@ -205,7 +205,7 @@
 					</div>
 
 					<div class="grid-3">
-						<a href="http://www.csswinner.com/details/broken-labs/8582" target="_blank" class="icon ion-ribbon-b"></a>
+						<a href="http://www.onepageawards.com/website/brandon-mowat/" target="_blank" class="icon ion-ribbon-b"></a>
 						<h3>CSS Winner</h3>
 						<p>Featured Site</p>
 					</div>
@@ -222,6 +222,7 @@
 		<footer>
 			<h5>Made with <a class="icon ion-heart"></a> by Brandon Mowat</h5>
 			<h5>footers are awkward</h5>
+			<h5><a href="http://twitter.com/brandonmowat" class="icon ion-social-twitter"></a></h5>
 		</footer>
 	</body>
 </html>

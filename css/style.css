@@ -739,12 +739,12 @@ h4.page-logo {
 /*============QUOTE============
 =================================*/
 
-#quote {
+#quote, #quote2 {
 	padding: 2em 0;
 	background-color: #D03E3E;
 	color: #fff;
 	position: relative;
-}#quote p {
+}#quote p, #quote2 p {
 	padding-right: 5%;
 }
 
