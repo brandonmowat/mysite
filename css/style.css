@@ -213,6 +213,11 @@ nav#bar-navigation.hidden {
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
+	background: url("/img/IMG_3717.JPG") no-repeat center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }/** 
  * iPad with portrait orientation.
  */
@@ -239,6 +244,16 @@ nav#bar-navigation.hidden {
   .banner {
     height: 500px;
   }
+}
+
+@media (max-width: 680px) {
+	.banner {
+		background: url("/img/IMG_3717.JPG") no-repeat center right;
+			-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}
 }
 .banner .container {
 	top: 30%;
@@ -664,6 +679,20 @@ h4.page-logo {
 	border-radius: 100%;
 }
 
+@media (max-width: 680px) {
+	.copy-width h2 {
+		font-size: 2.5em;
+	}.inner .colLeft p,
+	.copy-width p {
+		font-size: 1em;
+	}h4.page-logo {
+		margin: 50px 0 -40px;
+	}h4.page-logo span {
+		font-size: 0.5em;
+		padding: 5px 7.5px;
+	}
+}
+
 /*============#bigtransition============
 =================================*/
 
@@ -701,6 +730,12 @@ h4.page-logo {
 	border-radius: 100%;
 }
 
+@media (max-width: 680px) {
+	.embed-site {
+		width: 100%;
+	}
+}
+
 /*============QUOTE============
 =================================*/
 
@@ -719,6 +754,12 @@ blockquote {
 	text-align: left;
 	font-style: italic;
 	color: #FFF;
+}
+
+@media (max-width: 680px) {
+	blockquote {
+		font-size: 1.5em;
+	}
 }
 
 /*============CREATION============

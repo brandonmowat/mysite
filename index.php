@@ -50,7 +50,7 @@
 		</div>
 
 		<!-- Banner -->
-		<div class="banner header-img full-img">
+		<div class="banner">
 			<div class="container">
 				<div class="wrap">
 					<h1>Designer, developer and lover of everything digital.</h1>
