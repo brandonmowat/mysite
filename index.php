@@ -53,7 +53,7 @@
 		<div class="banner">
 			<div class="container">
 				<div class="wrap">
-					<h1>Designer, developer and lover of everything digital.</h1>
+					<h1>Designer, Hacker and lover of everything digital.</h1>
 				</div>
 			</div>
 			<div class="scroll-down" id="read-story">
@@ -206,7 +206,7 @@
 
 					<div class="grid-3">
 						<a href="http://www.onepageawards.com/website/brandon-mowat/" target="_blank" class="icon ion-ribbon-b"></a>
-						<h3>CSS Winner</h3>
+						<h3>One Page Awards</h3>
 						<p>Featured Site</p>
 					</div>
 
@@ -220,9 +220,9 @@
 		</div>
 
 		<footer>
+			<h5 class="follow"><a href="http://twitter.com/brandonmowat">Follow me on twitter <span class="icon ion-social-twitter"></span></a></h5>
 			<h5>Made with <a class="icon ion-heart"></a> by Brandon Mowat</h5>
 			<h5>footers are awkward</h5>
-			<h5><a href="http://twitter.com/brandonmowat" class="icon ion-social-twitter"></a></h5>
 		</footer>
 	</body>
 </html>

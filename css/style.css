@@ -76,9 +76,9 @@ nav#bar-navigation {
   /*background: rgba(27,147,199, 1);*/
   cursor: pointer;
 }.fullpage-nav {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
   height: 100%;
   width: 50%;
   z-index: 10000;
@@ -308,7 +308,10 @@ nav#bar-navigation.hidden {
 
 @media (min-width: 1000px) {
 	.banner h1 {
-		font-size: 5em;
+		font-size: 6em;
+		max-width: 1000px;
+	}.banner .container {
+		top: 22%;
 	}
 }
 
@@ -800,6 +803,19 @@ footer a {
 footer h5 {
 	text-align: center;
 	margin: 0;
+}footer h5.follow {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	color: #fff;
+}
+footer h5.follow span {
+	color: #fff;
+}
+footer h5.follow a {
+	border-radius: 100px;
+	padding: 10px 20px;
+	color: #FFF;
+	background-color: #D03E3E;
 }
 
 /*============ANIMATIONS============
