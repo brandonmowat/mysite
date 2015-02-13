@@ -25,6 +25,7 @@
 
 		<link rel="stylesheet" type="text/css" href="/ionicons.css">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.5.0/base-min.css&pure/0.5.0/grids-min.css&pure/0.5.0/grids-responsive-min.css">
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		<link href='/fonts/fonts.css' rel='stylesheet' type='text/css'>
 		<script type='text/javascript' src='/js/js.js'></script>
@@ -68,7 +69,7 @@
 			<section id="big-transition">
 				<div class="container">
 					<div class="copy-width">
-						<h2 class="nologo">Attention to detail</h2>
+						<h2 class="nologo">Little Big Details</h2>
 						<p>Ever since I can remember I've had an eye for details. My brain immediately searches for flaws in everything I look at. Now that I've gotten older, I've applied this curse to create experiences for others on the web.</p>
 						<p>My works have been featured on some of the top awards sites on the internet. One of them being the 2nd most visited awards site; <a target="_blank" href="http://www.cssdesignawards.com/sites/broken-labs/25833/">CSS Design Awards</a>.</p>
 						<div class="embed-site">
@@ -94,13 +95,14 @@
 			<section id="creation">
 				<div class="container">
 					<div class="copy-width">
-						<h4 class="page-logo"><span>B</span></h4>
 						<h2>
 							My creative outlet
 						</h2>
 						<p>I never really had a creative outlet until I discovered programming on the web (other than playing with lego long after I was too old to). It finally gave me some purpose and I knew it was what I was meant to do. Problem solving has always been a strength of min and now I can apply myself in a meanigful way. Maybe even make an impact in the world.</p>
 					</div>
 				</div>
+
+				<div class="line-divide"></div>
 						<div class="inner">
 							<div class="colLeft">
 								<p>Making digital things is just what I've come to love to do. Design is a passionate hobby I have but to compliment that, I study computer science full time at UofT. Designing experiences requires a knowledge of every aspect of the development process and that's exactly what I strive to do.</p>
@@ -165,55 +167,38 @@
 					<p style="text-align: right;">- Jon Lax (co-founder of Teehan+Lax)</p>
 				</div>
 			</section>
-						<!-- Photo Grid -->
-			<section id="photoboard">
-			<div class="container">
-				<div class="copy-width">
-					<h2>
-					I'm pretty social
-					</h2>
-					<h4 class="subtitle">(on the internet)</h4>
-				</div>
-			</div>
-				<div class="inner social">
-					<div class="col-2-Left 4-grid instagramImagePositioning" id="instagramImage1">
-						<div class="grid-cover">
-						</div>
-						<div class="insta-img"></div>
-					</div>
 
-					<div class="col-2-Right 4-grid">
-						<div class="col-2-Left instagramImagePositioning" id="instagramImage2">
-							<div class="grid-cover">
+
+			<section class="">
+				<div class="container">
+					<div class="copy-width">
+						<h2>
+						Work Hard, Stay Humble
+						</h2>
+						<p>I've been recognized for a few of my designs. I guess that means I do good work.
+						I just like to believe I put everything I had into each project. 
+						My rule is, do what you love and everything else will follow.</p>
+						<p>I love creating things and I know that people enjoy what I create.</p>
+						<div class="pure-g awards">
+							<div class="pure-u-1-3">
+								<a href="http://www.cssdesignawards.com/sites/broken-labs/25833" target="_blank" class="icon ion-ribbon-b"></a>
+								<h3>CSS Design Awards</h3>
+								<p>Nominee</p>
 							</div>
-							<div class="insta-img"></div>
+
+							<div class="pure-u-1-3">
+								<a href="http://www.onepageawards.com/website/brandon-mowat/" target="_blank" class="icon ion-ribbon-b"></a>
+								<h3>One Page Awards</h3>
+								<p>Featured Site</p>
+							</div>
+
+							<div class="pure-u-1-3">
+								<a href="https://onepagelove.com/brandon-mowat" target="_blank" class="icon ion-ribbon-b"></a>
+								<h3>One Page Love</h3>
+								<p>Featured</p>
+							</div>
 						</div>
-						<div class="col-2-Right instagramImagePositioning" id="instagramImage3"><div class="grid-cover"></div><div class="insta-img"></div></div>
-						<div class="col-2-Left instagramImagePositioning" id="instagramImage4"><div class="grid-cover"></div><div class="insta-img"></div></div>
-						<a target="_blank" href="http://medium.com/@irl" class="col-2-Right instagramImagePositioning" id="instagramImage5"><div class="grid-cover"><img alt="M" src="/img/logo-medium.png"></div><div class="insta-img"></div></a>
-					</div>
-				</div>
-			</section>
 
-			<section>
-				<div class="grids">
-
-					<div class="grid-3">
-						<a href="http://www.cssdesignawards.com/sites/broken-labs/25833" target="_blank" class="icon ion-ribbon-b"></a>
-						<h3>CSS Design Awards</h3>
-						<p>Nominee</p>
-					</div>
-
-					<div class="grid-3">
-						<a href="http://www.onepageawards.com/website/brandon-mowat/" target="_blank" class="icon ion-ribbon-b"></a>
-						<h3>One Page Awards</h3>
-						<p>Featured Site</p>
-					</div>
-
-					<div class="grid-3">
-						<a href="https://onepagelove.com/brandon-mowat" target="_blank" class="icon ion-ribbon-b"></a>
-						<h3>One Page Love</h3>
-						<p>Featured</p>
 					</div>
 				</div>
 			</section>
