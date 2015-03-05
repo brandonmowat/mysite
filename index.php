@@ -69,7 +69,7 @@
 			<section id="big-transition">
 				<div class="container">
 					<div class="copy-width">
-						<h2 class="nologo">Little Big Details</h2>
+						<h2 class="nologo">Big Details</h2>
 						<p>Ever since I can remember I've had an eye for details. My brain immediately searches for flaws in everything I look at. Now that I've gotten older, I've applied this curse to create experiences for others on the web.</p>
 						<p>My works have been featured on some of the top awards sites on the internet. One of them being the 2nd most visited awards site; <a target="_blank" href="http://www.cssdesignawards.com/sites/broken-labs/25833/">CSS Design Awards</a>.</p>
 						<div class="embed-site">
@@ -96,70 +96,30 @@
 				<div class="container">
 					<div class="copy-width">
 						<h2>
-							My creative outlet
+							Creative
 						</h2>
+						<img style="    display: block; margin-bottom: 4em; margin-left: auto; margin-right: auto;" src="/img/Swifticons_free/Colored/PNG/@2x/3D@2x.png">
 						<p>I never really had a creative outlet until I discovered programming on the web (other than playing with lego long after I was too old to). It finally gave me some purpose and I knew it was what I was meant to do. Problem solving has always been a strength of min and now I can apply myself in a meanigful way. Maybe even make an impact in the world.</p>
 					</div>
 				</div>
 
 				<div class="line-divide"></div>
-						<div class="inner">
-							<div class="colLeft">
-								<p>Making digital things is just what I've come to love to do. Design is a passionate hobby I have but to compliment that, I study computer science full time at UofT. Designing experiences requires a knowledge of every aspect of the development process and that's exactly what I strive to do.</p>
-							</div>
-							<div class="colRight">
+						<div class="pure-g">
+							<div class="pure-u-1-2">
+								<div class="copy-width">
+									<p>Making digital things is just what I've come to love to do. Design is a passionate hobby I have but to compliment that, I study computer science full time at UofT. Designing experiences requires a knowledge of every aspect of the development process and that's exactly what I strive to do.</p>
 
-								<div class="fluid matic-svg1"> 
-									<div id="main1" class="main">
-										<div class="drawings ipad">
-											<svg class="line-drawing1" id="mac" width="100%" height="600" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
-
-
-
-												<path d="M 257.85024,158.16843 754.90716,35.953537 731.06035,405.57906 228.78695,448.8014 z" style="stroke-dasharray: 1678.46752929688px, 1678.46752929688px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="m 259.83736,136.30872 c 0,0 -6.74232,0.97288 -11.61303,5.46502 -3.96751,3.659 -6.12527,9.40831 -7.01729,20.86596 l -36.5158,346.77284 c 0,0 -3.47753,13.41382 10.68151,14.15903 l 517.67468,-21.11485 c 0,0 18.38216,0.74522 19.87257,-19.62369 L 784.07068,11.384991 c 0,0 0.059,-13.07475 -23.20111,-7.2266959 L 259.83736,136.30872 z" style="stroke-dasharray: 1972.66748046875px, 1972.66748046875px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="m 211.29271,522.89381 c 0,0 12.5259,6.63947 19.72988,5.64573 l 513.45197,-19.12737 c 0,0 18.87884,0.74557 21.61112,-18.87848 l 29.5596,-462.528221 c 0,0 1.49047,-10.184447 -13.54272,-21.4997553" style="stroke-dasharray: 1056.01965332031px, 1056.01965332031px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="M 208.59466,472.34637 756.27723,432.02629" style="stroke-dasharray: 549.164733886719px, 549.164733886719px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="m 591.36015,515.11602 11.15099,41.36862 c 0,0 8.62435,33.16197 -11.15099,33.16197 l -55.35924,4.26821 c 0,0 -9.65275,0.58387 -13.08781,0.58387 -1.35069,0 -5.16991,0.0265 -5.16991,0.0265 l -149.57016,-0.0347 c 0,0 -1.45726,0.12035 -1.52173,-0.0853 -0.14195,-0.4531 1.2173,-0.44973 1.2173,-0.44973 l 93.42473,-4.68143 c 0,0 23.85536,1.49042 23.85127,-27.57288 l -2.70885,-42.52741" style="stroke-dasharray: 487.129577636719px, 487.129577636719px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="m 595.82547,514.94947 11.52956,43.3982 c 0,0 8.23944,32.78936 -11.52956,38.00586 h -58.52044 l -12.10971,0.99374 -16.58099,-0.61332 -128.7355,0.17849 c 0,0 -10.74373,-0.45795 -13.22753,-2.50727" style="stroke-dasharray: 318.351928710938px, 318.351928710938px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="m 486.38703,90.292617 c -0.3846,2.126175 -1.9686,3.619643 -3.5379,3.335758 -1.5693,-0.283875 -2.5297,-2.237606 -2.1451,-4.363775 0.38461,-2.12617 1.96859,-3.619642 3.53789,-3.335762 1.56931,0.283879 2.52971,2.23761 2.14511,4.363779 z" style="stroke-dasharray: 21.4870376586914px, 21.4870376586914px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path d="m 483.95449,571.8934 120.41968,0" style="stroke-dasharray: 120.419647216797px, 120.419647216797px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path class="line-round" d="m 783.49986,166.74023 -9.12881,133.48624" style="stroke-dasharray: 133.79801940918px, 133.79801940918px; stroke-dashoffset: 0px;"></path> 
-
-
-
-												<path class="line-round" d="m 773.91008,309.26031 -1.81646,29.43591" style="stroke-dasharray: 29.4919052124023px, 29.4919052124023px; stroke-dashoffset: 0px;"></path>
-											</svg>
-										</div>
-									</div>  <!-- end of MAIN -->
 								</div>
+							</div>
+							<div class="pure-u-1-2">
+								<img class="para" style="display: block; margin-top: 9em; margin-left: auto; margin-right: auto;" src="/img/Swifticons_free/Colored/PNG/@3x/Browserscript@3x.png">  <!-- end of MAIN -->
 							</div>
 						</div>
 			</section>
+
+			<div class="pure-u-1">
+		        <img class="pure-img" src="https://s3.amazonaws.com/ooomf-com-files/wjNV6gWuQkqeuH8txHc9_sylwiabartyzel_unsplash_tatry_03.jpg" alt="By Sylwia Bartyzel from unsplash.com">
+		    </div>
 
 			<section id="quote2" >
 				<div class="container">
@@ -200,6 +160,17 @@
 						</div>
 
 					</div>
+				</div>
+			</section>
+
+			<section class="photogrid">
+				<div class="pure-g">
+					<div class="pure-u-1-4">
+						<img class="pure-img" id="instagramImage1"alt="T-Shirt Store">
+					</div>
+					<div class="pure-u-1-4"><img class="pure-img" id="instagramImage2"alt="T-Shirt Store"></div>
+					<div class="pure-u-1-4"><img class="pure-img" id="instagramImage3"alt="T-Shirt Store"></div>
+					<div class="pure-u-1-4"><img class="pure-img" id="instagramImage4"alt="T-Shirt Store"></div>
 				</div>
 			</section>
 		</div>

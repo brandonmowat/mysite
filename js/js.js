@@ -126,12 +126,12 @@ $(document).ready(function(){
 	var st = 0;
 	$(window).scroll(function(event){
 		st = $(this).scrollTop();
-		$('.line-drawing1').each(function(){
+		$('.para').each(function(){
 		var whatWeDo = $(this).offset().top;
 
 		var topOfWindow = $(window).scrollTop();
 			if ((whatWeDo > topOfWindow-600) && (whatWeDo < topOfWindow+600)) {
-				$('.line-drawing1').css({'transform':'translate3d(0px,' + (-((st/7)-(350))+ 'px, 0)')});
+				$('.para').css({'transform':'translate3d(0px,' + (-((st/7)-(350))+ 'px, 0)')});
 			}
 		});
 		lastScrollTop = st;
@@ -191,8 +191,8 @@ $(document).ready(function() {
         		var url = data.data[i].images.standard_resolution.url,
 				caption = data.data[i].caption.text;
 				var num = (i+1).toString();
-				$('#instagramImage' + num).css({backgroundImage: 'url(' + url + ')'});
-				$('#instagramCaption' + num).html(caption);
+				$('#instagramImage' + num).attr("src",url);
+				//$('#instagramCaption' + num).html(caption);
         	};
         }
     });

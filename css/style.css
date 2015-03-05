@@ -397,8 +397,6 @@ border-right: 1px solid #f0f0f0;
 
 
 #instagramImage1 {
-	width: 49%;
-	margin: 0.5%;
 	opacity: 0.6;
 	-moz-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
@@ -414,8 +412,7 @@ border-right: 1px solid #f0f0f0;
 	-o-transition: all 0.4s ease;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-	width: 48%;
-	margin: 1%;
+
 	opacity: 0.6;
 }#instagramImage5 {	opacity: 1; background-color: #333;}
 
@@ -468,8 +465,6 @@ border-right: 1px solid #f0f0f0;
 	#instagramImage3,
 	#instagramImage4,
 	#instagramImage5 {
-		width: 50%;
-		margin: 0%;
 	}
 }
 
@@ -653,8 +648,6 @@ a.col-link a {
 	position: relative;
 	color: #2f363b;
 	text-transform: uppercase;
-}.copy-width h2.nologo {
-	margin: 1.5em 0 0.8em;
 }.copy-width h4.subtitle {
 	color: #777;
 	text-align: center;
@@ -702,6 +695,13 @@ h4.page-logo {
 	color: #FFF;
 	padding: 10px 15px;
 	border-radius: 100%;
+}
+
+@media (min-width: 1080px) {
+	.copy-width h2 {
+		font-size: 8em;
+		margin: 1em 0 0.5em;
+	}
 }
 
 @media (max-width: 680px) {
@@ -809,8 +809,7 @@ blockquote {
 }
 .matic-svg1 {
 	position: relative;
-	right: 25%;
-	width: 150%;
+	width: 100%;
 	z-index: 0;
 }
 .line-drawing1 path {
@@ -821,6 +820,12 @@ blockquote {
 
 #creation .colRight {
 	min-height: 0em;
+}
+
+.photogrid img.pure-img {
+	overflow: hidden;
+}.photogrid {
+	overflow: hidden;
 }
 
 /*============FOOTER============
