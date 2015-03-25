@@ -5,7 +5,12 @@ li {
 	margin: 0;
 	padding: 0;
 	font-family: proxima-nova;
-}html.nav-closed {
+}
+html {
+	overflow-x: hidden;
+
+}
+html.nav-closed {
   overflow:hidden;
 }
 body {
@@ -40,7 +45,7 @@ a {
 }
 
 .header-img {
-	background: url("/img/IMG_3717.JPG") no-repeat center center;
+	background: url("/img/poly-BW.jpg") no-repeat center center;
 }
 
 .full-img {
@@ -208,7 +213,7 @@ nav#bar-navigation.hidden {
 	height: 100vh;
 	overflow: hidden;
 	position: relative;
-	background: url("/img/IMG_3717.JPG") no-repeat center center;
+	background: url("/img/poly-BW.jpg") no-repeat center center;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -243,11 +248,7 @@ nav#bar-navigation.hidden {
 
 @media (max-width: 680px) {
 	.banner {
-		background: url("/img/IMG_3717.JPG") no-repeat center right;
-			-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
 	}
 }
 .banner .container {
@@ -265,8 +266,12 @@ nav#bar-navigation.hidden {
 	line-height: 0.95;
 	max-width: 750px;
 	width: 90%;
-	color: #FFF;
+	color: #2f363b;
 	margin-left: 4%;
+}
+
+.banner h1 span {
+	background-color: #FFF;
 }
 
 .scroll-down {
@@ -617,6 +622,17 @@ a.col-link a {
 	font-size: 3.5em;
 }.awards .pure-u-1-3 {
 	text-align: center;
+	position: relative;
+}
+.awards .pure-u-1-3 h3, 
+.awards .pure-u-1-3 p {
+	position: absolute;
+	top: 2em;
+	width: 100%;
+}
+
+.awards .pure-u-1-3 p {
+	top: 2.6em;
 }
 
 /*============MAIN============
@@ -648,7 +664,16 @@ a.col-link a {
 	position: relative;
 	color: #2f363b;
 	text-transform: uppercase;
-}.copy-width h4.subtitle {
+	font-family: Futura STD;
+}
+#header-wreath {
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: -1em;
+	z-index: -20;
+}
+.copy-width h4.subtitle {
 	color: #777;
 	text-align: center;
 }.inner .colLeft p,
@@ -701,6 +726,13 @@ h4.page-logo {
 	.copy-width h2 {
 		font-size: 8em;
 		margin: 1em 0 0.5em;
+	}
+	#header-wreath {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: -1em;
+		z-index: -20;
 	}
 }
 
@@ -771,6 +803,19 @@ h4.page-logo {
 	}
 }
 
+.laptop {
+	margin: 90px 0 40px;
+}
+
+.pure-g {
+			-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+}
+
 /*============QUOTE============
 =================================*/
 
@@ -816,6 +861,11 @@ blockquote {
 	fill: none;
 	stroke: #B0B9BE;
 	stroke-width: 3;
+}
+
+#creation .pure-u-1-2 .copy-width p {
+	text-align: right;
+	font-family: proxima-nova;
 }
 
 #creation .colRight {

@@ -131,7 +131,7 @@ $(document).ready(function(){
 
 		var topOfWindow = $(window).scrollTop();
 			if ((whatWeDo > topOfWindow-600) && (whatWeDo < topOfWindow+600)) {
-				$('.para').css({'transform':'translate3d(0px,' + (-((st/7)-(350))+ 'px, 0)')});
+				$('.para').css({'transform':'translate3d(0px,' + (-((st/8)-(350))+ 'px, 0)')});
 			}
 		});
 		lastScrollTop = st;
@@ -184,16 +184,31 @@ $(document).ready(function() {
         userId: 20421834,
         accessToken: '20421834.1677ed0.dcc38f0139f348398fec1b4a44863f51',
         resolution: 'standard_resolution',
-        limit:4,
+        limit:5,
         mock: true,
         success: function(data) {
-        	for (var i = data.data.length - 1; i >= 0; i--) {
-        		var url = data.data[i].images.standard_resolution.url,
-				caption = data.data[i].caption.text;
-				var num = (i+1).toString();
-				$('#instagramImage' + num).attr("src",url);
+        	//for (var i = data.data.length - 1; i >= 0; i--) {
+        		//var url = data.data[i].images.standard_resolution.url,caption = data.data[i].caption.text;
+				//var num = (i+1).toString();
+				//$('#instagramImage' + num).attr("src",url);
 				//$('#instagramCaption' + num).html(caption);
-        	};
+
+				var url = data.data[0].images.standard_resolution.url,caption = "";
+				var num = (1).toString();
+				$('#instagramImage1').attr("src",url);
+
+				var url = data.data[1].images.standard_resolution.url,caption = "";
+				var num = (2).toString();
+				$('#instagramImage2').attr("src",url);
+
+				var url = data.data[2].images.standard_resolution.url,caption = "";
+				var num = (3).toString();
+				$('#instagramImage3').attr("src",url);
+
+				var url = data.data[3].images.standard_resolution.url,caption = "";
+				var num = (4).toString();
+				$('#instagramImage4').attr("src",url);
+        	//};
         }
     });
     feed.run();

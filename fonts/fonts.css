@@ -39,3 +39,10 @@
   font-weight: 700;
   src: local('webfont'), url('/fonts/montserrat.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Futura STD';
+  font-style: normal;
+  font-weight: 800;
+  src: local('webfont'), url('/fonts/futurastd-bold-webfont.woff') format('woff');
+}
