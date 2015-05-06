@@ -2,47 +2,47 @@
   font-family: 'freight';
   font-style: normal;
   font-weight: 100;
-  src: local('webfont'), url('/fonts/freight.woff') format('woff');
+  src: local('webfont'), url('./freight.woff') format('woff');
 }
 
 @font-face {
   font-family: 'proxima-nova';
   font-style: normal;
   font-weight: 100;
-  src: local('webfont'), url('/fonts/proxima-nova-100.woff') format('woff');
+  src: local('webfont'), url('./proxima-nova-100.woff') format('woff');
 }
 
 @font-face {
   font-family: 'proxima-nova';
   font-style: normal;
   font-weight: 300;
-  src: local('webfont'), url('/fonts/proxima-nova-300.woff') format('woff');
+  src: local('webfont'), url('./proxima-nova-300.woff') format('woff');
 }
 
 @font-face {
   font-family: 'proxima-nova';
   font-style: normal;
   font-weight: 500;
-  src: local('webfont'), url('/fonts/proxima-nova-500.woff') format('woff');
+  src: local('webfont'), url('./proxima-nova-500.woff') format('woff');
 }
 
 @font-face {
   font-family: 'proxima-nova';
   font-style: normal;
   font-weight: 700;
-  src: local('webfont'), url('/fonts/proxima-nova-700.woff') format('woff');
+  src: local('webfont'), url('./proxima-nova-700.woff') format('woff');
 }
 
 @font-face {
   font-family: 'montserrat';
   font-style: normal;
   font-weight: 700;
-  src: local('webfont'), url('/fonts/montserrat.woff') format('woff');
+  src: local('webfont'), url('./montserrat.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Futura STD';
   font-style: normal;
   font-weight: 800;
-  src: local('webfont'), url('/fonts/futurastd-bold-webfont.woff') format('woff');
+  src: local('webfont'), url('./futurastd-bold-webfont.woff') format('woff');
 }
