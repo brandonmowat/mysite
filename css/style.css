@@ -716,7 +716,7 @@ Main content
   color: #000;
 }
 .cd-item h2.large {
-  font-size: 3em;
+  font-size: 4em;
 }
 .cd-item p {
   line-height: 1.2;
@@ -1316,6 +1316,16 @@ footer h4 {
 }
 .float-right {
   float: right;
+}
+
+.social-links {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1.2em;
+}
+.social-links a {
+  font-size: 1.9em;
+  padding: 0 0.3em;
 }
 
 
