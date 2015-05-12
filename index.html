@@ -15,6 +15,10 @@
 		</script>
 		<title>Brandon Mowat</title>
 		<LINK REL="SHORTCUT ICON" HREF="./img/b-logo-dark-dribbble-o.png">
+
+		<script src="//use.typekit.net/afr3hmy.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+		
 		<meta charset="utf-8">
 		<meta property="og:type" content="website">
 		<meta name="author" content="Brandon Mowat">
@@ -42,7 +46,7 @@
 					</div>
 
 					<nav>
-						<a class="animated" href="javascript:;">About</a>
+						<a class="animated" href="#about">About</a>
 						<a class="animated" href="#portfolio">Work</a>
 						<a class="animated" href="mailto:brandonmowat11@gmail.com">Contact</a>
 					</nav>
@@ -51,20 +55,20 @@
 		</div>
 		
 
-		<div class="main"> <!-- Start of Main -->
-
-			<section class="banner ">
-				<div class="site-width">
-					<div class="banner-copy-width">
-						<div class="device">
-							<img src="./img/browser.svg">
-						</div>
-						<h1 class="title">
-							I'm a front end developer at <br><a href="http://maclaren.com" target="_blank" class="animated">MacLaren McCann</a>.
-						</h1>
+		<section class="banner ">
+			<div class="site-width">
+				<div class="banner-copy-width">
+					<div class="device">
+						<img src="./img/browser.svg">
 					</div>
+					<h1 class="title">
+						I'm a front end developer at <br><a href="http://maclaren.com" target="_blank" class="animated">MacLaren McCann</a>.
+					</h1>
 				</div>
-			</section>
+			</div>
+		</section>
+
+		<div class="main"> <!-- Start of Main -->
 
 			<!--<section class="work">
 				<div class="site-width">
@@ -90,23 +94,43 @@
 				</div>
 			</section>-->
 
-			<section class="portfolio" id="portfolio">
+			<section class="feature">
+				<div class="container">
+					<h3>I help awesome companies build their brand, craft their product and realize who they are.</h3>
+				</div>
+			</section>
+		</div>
 
-				<h3>I help awesome companies build their brand, craft their product and realize who they are.</h3>
+		<section id="about">
+			<div class="main">
+				<div class="container-small">
+					<h1 class="title">I'm Brandon.</h1>
+					<p>I’m a <span>designer of digital things</span> living in Toronto collaborating with amazing people around the world to design and create experiences on the web and on your phone for awesome people <span>just like you.</span></p>
+					<p>I'm always open to new projects. You can just <a class="animated" href="mailto:brandonmowat11@gmail.com">shoot</a> me an email.</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="main">
+
+			<section class="portfolio" id="portfolio">
+				<div class="container">
+					<h2>Featured Work</h2>
+				</div>
 
 				<main class="cd-main">
 
 					<ul class="cd-gallery no-touch">
-						<li class="cd-item">
+						<li class="cd-item two-three">
 							<a href="item-1.html">
 								<div>
-									<h2 class="dark">Microsoft Edge</h2>
+									<h2 class="large">Microsoft Edge</h2>
 									<img src="./img/microsoft-edge-2.png">
 								</div>
 							</a>
 						</li>
 
-						<li class="cd-item">
+						<li class="cd-item one-three">
 							<a href="item-2.html">
 								<div>
 									<h2>Overcast</h2>
@@ -115,32 +139,51 @@
 							</a>
 						</li>
 
-						<li class="cd-item">
+						<li class="cd-item one-three">
 							<a class="dark-text" href="item-3.html">
 								<div>
-									<h2>Personal Branding</h2>
+									<h2>Me</h2>
 									<img src="./img/b-logo-dark-dribbble.png">
 								</div>
 							</a>
 						</li>
 
-						<li class="cd-item">
+						<li class="cd-item one-three">
+								<div>
+									<h2 class="large">Microsoft Edge</h2>
+									<img src="https://d13yacurqjgara.cloudfront.net/users/606206/screenshots/2056934/sunset2.png">
+								</div>
+						</li>
+
+						<li class="cd-item two-three float-right">
+								<div>
+									<h2>Overcast</h2>
+									<img src="./img/cssdesignawards.png">
+								</div>
+						</li>
+
+						<li class="cd-item one-three ">
+
+								<div>
+									<h2>Me</h2>
+									<img src="https://d13yacurqjgara.cloudfront.net/users/606206/screenshots/2056538/burst.png">
+								</div>
+						</li>
+
+						<!--<li class="cd-item one">
 							<a class="dark-text" href="item-4.html">
 								<div>
 									<h2>Coming Soon...</h2>
 									<img src="./img/question-mark.png">
 								</div>
 							</a>
-						</li>
+						</li>-->
 
 					</ul> <!-- .cd-gallery -->
+
 				</main> <!-- .cd-main -->
 
 				<div class="cd-folding-panel">
-					
-					<div class="fold-left"></div> <!-- this is the left fold -->
-					
-					<div class="fold-right"></div> <!-- this is the right fold -->
 					
 					<div class="cd-fold-content">
 						<!-- content will be loaded using javascript -->
@@ -153,6 +196,7 @@
 
 			<script src="js/jquery-2.1.1.js"></script>
 			<script src="js/main.js"></script> <!-- Resource jQuery -->
+
 
 		</div> <!-- End of Main -->
 

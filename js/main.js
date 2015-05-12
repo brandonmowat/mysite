@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
 					$('body').removeClass('overflow-hidden');
 					$('.cd-main').find('.cd-item').eq(0).off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
 				});
-				var contactTopPosition = $(".site-width").position().top;
+				var contactTopPosition = $("#portfolio").position().top;
 				$(".cd-fold-content").animate({scrollTop: contactTopPosition});
 			//$('.nav#bar-navigation').removeClass("visible");
 			//$('.nav#bar-navigation').addClass("hidden");
